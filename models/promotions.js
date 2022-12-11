@@ -32,5 +32,4 @@ const promoSchema = new Schema({
 });
 
 var Promos = mongoose.model('Promo', promoSchema);
-
 module.exports = Promos;
